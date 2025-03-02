@@ -3,7 +3,10 @@ pipeline{
 
     stages {
         stage("build"){
-            sh 'echo "Inicio"'
+            steps{
+                sh 'echo "Inicio"'
+            }
+           
         }
     }
 }
